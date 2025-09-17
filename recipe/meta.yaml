@@ -1,5 +1,5 @@
 {% set name = "bayesmbar" %}
-{% set version = "0.0.9" %}
+{% set version = "0.1.0" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/bayesmbar-{{ version }}.tar.gz
-  sha256: 280483b700eccfc68fabbbefef3b45ceda74d02b3028318bfbf09142440c1217
+  sha256: 904dafc4ec6ab13015a657018f4f660d2f468c6ac21deb9dfa41948a4d671beb
 
 build:
   noarch: python
